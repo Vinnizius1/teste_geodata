@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(176, 176, 176);
+}
+
+.teste_lampada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+/* A imagem da lâmpada acesa começa "apagada" */
+#lampada_acesa {
+  display: none;
+}
+
+img {
+  width: 290px;
+  height: 290px;
+}
+
+button {
+  margin: 1rem 0.3rem;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a {
+  font-size: medium;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a:visited {
+  color: #060101;
+}
+a:hover {
+  color: #c71515;
+  text-decoration: underline;
+}
